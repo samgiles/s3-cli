@@ -3,7 +3,7 @@
   "bin": {
     "s3": "./bin/s3"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple CLI and library for uploading and downloading from Amazon S3",
   "main": "bin/s3",
   "author": "Sam Giles <sgiles@mozilla.com>",
