@@ -1,0 +1,15 @@
+{
+  "name": "s3-cli-upload",
+  "bin": {
+    "s3": "./bin/s3"
+  },
+  "version": "1.0.0",
+  "description": "A simple CLI and library for uploading and downloading from Amazon S3",
+  "main": "bin/s3",
+  "author": "Sam Giles <sgiles@mozilla.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.7.21",
+    "yargs": "^6.6.0"
+  }
+}

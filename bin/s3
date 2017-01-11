@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+const yargs = require('yargs');
+
+const argv = yargs
+  .commandDir('../lib/commands')
+  .demandCommand(1, 'You need to use one of the commands')
+  .help()
+  .argv;
